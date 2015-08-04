@@ -7,6 +7,7 @@ public class SomeAwesomeScript : MonoBehaviour {
 	void Start () {
 		Debug.Log("what a silly script");
 		GameObject.CreatePrimitive(PrimitiveType.Sphere);
+		Transform t = GameObject.Find("Directional Light").transform;
 	}
 	
 	// Update is called once per frame
